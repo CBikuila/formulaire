@@ -1,0 +1,36 @@
+body{
+     font-family: verdana, sans-serif;
+     font-size: 0,875em;
+     background-image: url(../image1.jpg);
+     width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.p1{
+    text-align: center;
+   font-style: italic;
+   line-height: 0%;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 200%;
+    list-style: none;
+
+}
+
+.block1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

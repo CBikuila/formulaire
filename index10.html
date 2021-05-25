@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>formulaire</title>
+</head>
+<body>
+    <h1><span>Formulaire</span></h1><!-- Formulaire-->
+        <p class="p1">Veuillez remplir ce formulaire.</p>
+        <div class="block1">
+        <form>
+            <ul>
+                <li>
+                    <label for="Civilité">Civilité :</label>
+                    <input type="radio" name="ano" value="one">Mme
+                    <input type="radio" name="ano" value="two">Mlle
+                    <input type="radio" name="ano" value="three">Mr
+                </li>
+                <li>
+                    <label for="registre-name">Entrer votre Nom:</label>
+                    <input type="text"  name="name" required>
+                </li>
+                <li>
+                    <label for="registre-first-name">Entrer votre Prénom:</label>
+                    <input type="text"  name="first-name"required>
+                </li>
+                <li>
+                    <label for="start-date" >Entrer votre Date de Naissance:</label>
+                    <input type="date"  name="date" required>
+                </li>
+                <li>
+                    <label for="adress">Votre Adresse:</label>
+                    <input type="text"  name="adress" >
+                </li>
+                <li>
+                    <label for="adress">Votre Code Postale:</label>
+                    <input type="text"  name="adress">
+                </li>
+                <li>
+                    <label for="tel">Tel:</label>
+                    <input type="tel"  name="phone"required>
+                </li>
+                <li>
+                    <label for="list">Choisir votre évenement</label>
+                    <select id="list">
+                            <option value="24 Du Mans">24h Du Mans</option>
+                            <option value="Concert et Spectacle">Concert et Spectacle</option>
+                            <option value="Parc">Parc</option>
+                    </select>  
+                <div>
+                    <textarea id="placeholder" rows="10" cols="50" required>Ecrivez vos commentaire</textarea> 
+                </div>
+                    <button>Valider</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>
